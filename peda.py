@@ -6154,7 +6154,7 @@ peda.execute("set output-radix 0x10")
 peda.execute("set prompt \001%s\002" % blue("\002peda$ \001", "bold")) # custom prompt
 peda.execute("set height 0") # disable paging
 peda.execute("set history expansion on")
-peda.execute("set history save on") # enable history saving
+peda.execute("set history save off") # disable history saving
 peda.execute("set disassembly-flavor intel")
 peda.execute("set follow-fork-mode child")
 peda.execute("set backtrace past-main on")
